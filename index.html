@@ -8,7 +8,48 @@
     </head>
 
     <body>
-        <p>WIP</p>
+        <h1>Zadanie 2</h1>
+        <div class="Syg" onclick="Zad_2(this, 'Red')"></div>
+        <div class="Syg" onclick="Zad_2(this, 'Yellow')"></div>
+        <div class="Syg" onclick="Zad_2(this, 'Green')"></div>
 
+        <!-- Na 3
+        <div class="Syg" onclick="Zad_2(this, 'Red')"></div>
+        <div class="Syg" onclick="Zad_2(this, 'Yellow')"></div>
+        <div class="Syg" onclick="Zad_2(this, 'Green')"></div>
+        -->
+
+
+        <h1>Zadanie 3</h1>
+
+        <form>
+            <label for="Imie">Imię: </label> <br>
+            <input id="Imie" type="text" minlength="3" oninput="Walidacja_Imie(this, 3)"> <br>
+
+            <label for="Email">E-mail: </label> <br>
+            <input id="Email" type="email" oninput="Walidacja_Email(this)"> <br>
+            
+            <label for="Haslo">Hasło: </label> <br>
+            <input id="Haslo" type="password" oninput="Walidacja_Haslo(this)"> <br>
+
+            <label for="Haslo_Powt">Powtórz Hasło: </label> <br>
+            <input id="Haslo_Powt" type="password" oninput="Walidacja_PowtHaslo(this)"> <br>
+
+            <!-- Na 4 -->
+            <label for="CheckBox">CheckBox: </label> <br>
+            <input type="checkbox" id="CheckBox" onchange="Walidacja_CheckBox()"> <br>
+
+            <label for="Data_Urodzenia">Data Urodzenia: </label> <br>
+            <input type="date" id="Data_Urodzenia" oninput="Walidacja_Wiek(this)"> <br>
+
+            <label for="Telefon">Telefon: </label> <br>
+            <input type="text" id="Telefon" oninput="Walidacja_Telefon(this)"> <br>
+
+            <input type="submit">
+        </form>
+
+        <table border="1">
+            <tr> </tr><th>Login</th> <th>Email</th> </tr>
+        </table>
     </body>
 </html>
