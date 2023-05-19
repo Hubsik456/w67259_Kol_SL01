@@ -1,9 +1,11 @@
+// Zmienne Globalne Do Zadania 2 Na 4 i 5
 Ustawienia = {
     "Na_Czerwone": 1000,
     "Na_Zolte": 1500,
     "Na_Zielone": 500,
 }
 Obecny_Kolor = "Zielony"
+// Zmienna Globalna Do Zadania 3 na 4
 Czy_CheckBox = false
 
 function Zad_2() { // Robienie na 4 i 5
