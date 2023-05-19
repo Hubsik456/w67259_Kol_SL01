@@ -1,0 +1,3 @@
+git status
+
+Wyświetla zmiany jakie zostały wprowadzone do repozytorium
